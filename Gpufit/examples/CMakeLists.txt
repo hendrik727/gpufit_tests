@@ -18,7 +18,8 @@ endfunction()
 # Examples
 
 add_example( Gpufit Simple_Example )
-add_example( Gpufit Linear_Regression_Example )
 add_example( Gpufit Gauss_Fit_2D_Example )
+add_example( Gpufit MM_NLR_test )
+add_example( Gpufit Newton )
 
 add_cuda_example( Gpufit CUDA_Interface_Example )
